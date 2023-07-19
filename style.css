@@ -1,0 +1,159 @@
+
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        /* Navigation Bar */
+        nav {
+            justify-content: center;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        nav img {
+            height: 40px;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Hero Section: About Us */
+        #about {
+            background-color: #fff;
+            padding: 50px;
+        }
+
+        #about h1 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Gallery Section */
+        #gallery {
+            background-color: #f5f5f5;
+            padding: 50px;
+        }
+
+        #gallery h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Contact Us Section */
+        #contact {
+            background-color: #fff;
+            padding: 50px;
+        }
+
+        #contact h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #contact p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        /* Branches/Office Locations */
+        #branches {
+            background-color: #f5f5f5;
+            padding: 50px;
+        }
+
+        #branches h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .branch {
+            margin-bottom: 20px;
+        }
+
+        .branch h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Clients Section */
+        #clients {
+            background-color: #fff;
+            padding: 50px;
+        }
+
+        #clients h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .client-logos {
+            display: flex;
+            align-items: center;
+        }
+
+        .client-logos img {
+            width: 100px;
+            margin-right: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        footer ul li:not(:last-child) {
+            margin-right: 10px;
+        }
+
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+  
+    /* <!-- Navigation Bar */
